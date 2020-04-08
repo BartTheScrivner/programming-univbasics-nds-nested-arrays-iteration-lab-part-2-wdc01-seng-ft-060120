@@ -15,6 +15,7 @@ while row_index < src.count do
   outer_results.push(min)
   row_index += 1
 end
+outer_results
 end
 
 def find_greater_pair(src)
