@@ -7,7 +7,7 @@ while row_index < src.count do
   min = false
   element_index = 0
   while element_index < src[row_index].count do
-    if (src[row_index][element_index] < min || min === false)
+    if (src[row_index][element_index] < min || min === 0)
       min = src[row_index][element_index]
     end
     element_index += 1
@@ -16,8 +16,4 @@ while row_index < src.count do
   row_index += 1
 end
 outer_results
-end
-
-def find_greater_pair(src)
-
 end
